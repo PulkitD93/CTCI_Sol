@@ -25,6 +25,10 @@ public static void main(String []args){
 	RotateMatrix.display(a);
 	*/
 	
-	System.out.println(StringRotation.stringRotate("Hello", "loHel"));
+	//System.out.println(StringRotation.stringRotate("Hello", "loHel"));
+	int [][]a={{1,2,3},{4,0,6},{7,8,9}};
+	RotateMatrix.display(a);
+	a= ZeroMatrix.zMatrix(a);
+	RotateMatrix.display(a);
 }
 }
